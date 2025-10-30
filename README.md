@@ -4,7 +4,7 @@ My Final Year Project – AI-Driven Real-Time Traffic Monitoring using YOLOv8 an
 This project detects and counts vehicles per lane using YOLOv8 and adjusts signal timing based on congestion levels. 
 It also detects emergency vehicles (ambulance, siren) for priority signal control.
 
-## Tech Stack
+# Tech Stack
 - Python
 - YOLOv8
 - OpenCV
