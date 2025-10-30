@@ -18,8 +18,8 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
 # --- Models ---
-model = YOLO("yolov8s.pt")
-ambulance_model = YOLO("runs/detect/train5/weights/best.pt")
+model = YOLO("models/vehicle_model.pt")
+ambulance_model = YOLO("models/ambulance_model.pt")
 
 # --- Globals ---
 video_path = None
